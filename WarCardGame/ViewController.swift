@@ -38,5 +38,15 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func dealTapped(_ sender: Any) {
+        // Randomize numbers from 2 - 10
+        let playerNumber = arc4random_uniform(9) + 2
+        let cpuNumber = arc4random_uniform(9) + 2
+
+        leftCardView.image = UIImage(named: "card\(playerNumber)")
+        rightCardView.image = UIImage(named: "card\(cpuNumber)")
+    }
+    
 }
 
