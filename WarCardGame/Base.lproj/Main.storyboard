@@ -116,6 +116,10 @@
                             <constraint firstAttribute="trailing" secondItem="FA8-Sr-Tpo" secondAttribute="trailing" id="wDo-DT-Bl7"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="leftCardView" destination="gFd-VB-I8k" id="74g-MR-a0G"/>
+                        <outlet property="rightCardView" destination="6lU-66-W6j" id="652-jc-qpb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
